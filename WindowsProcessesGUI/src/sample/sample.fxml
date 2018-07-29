@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.RowConstraints?>
 
-<GridPane alignment="center" hgap="10" prefHeight="473.0" prefWidth="509.0" vgap="10" style="-fx-background-color: green" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<GridPane alignment="center" hgap="10" prefHeight="473.0" prefWidth="509.0" style="-fx-background-color: green" vgap="10" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <columnConstraints>
       <ColumnConstraints />
    </columnConstraints>
@@ -21,7 +21,7 @@
          <children>
             <ScrollPane layoutX="30.0" layoutY="41.0" prefHeight="275.0" prefWidth="237.0">
               <content>
-                <AnchorPane focusTraversable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="0.0" minWidth="0.0" prefHeight="1000.0" prefWidth="1000.0">
+                <AnchorPane focusTraversable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="0.0" minWidth="0.0" prefHeight="15000.0" prefWidth="1000.0">
                      <children>
                         <Label fx:id="taskLabelOne" layoutX="8.0" layoutY="14.0" text="Tasks Will Appear Here" />
                      </children></AnchorPane>
@@ -29,7 +29,7 @@
             </ScrollPane>
             <ScrollPane layoutX="272.0" layoutY="41.0" prefHeight="275.0" prefWidth="237.0">
               <content>
-                <AnchorPane focusTraversable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="0.0" minWidth="0.0" prefHeight="1000.0" prefWidth="1000.0">
+                <AnchorPane focusTraversable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="0.0" minWidth="0.0" prefHeight="15000.0" prefWidth="1000.0">
                      <children>
                         <Label fx:id="taskLabelTwo" layoutX="14.0" layoutY="14.0" text="Tasks Will Appear Here" />
                      </children></AnchorPane>
