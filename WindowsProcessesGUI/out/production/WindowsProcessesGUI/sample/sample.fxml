@@ -39,6 +39,7 @@
             <Label layoutX="272.0" layoutY="24.0" text="List Two" />
             <Button layoutX="31.0" layoutY="333.0" mnemonicParsing="false" onAction="#WriteToFileOne" style="-fx-background-color: grey; -fx-border-width: 2px; -fx-border-color: black;" text="Run List One" />
             <Button layoutX="315.0" layoutY="333.0" mnemonicParsing="false" onAction="#WriteToFileTwo" style="-fx-background-color: grey; -fx-border-color: black; -fx-border-width: 2px;" text="Run List Two" />
+            <Button layoutX="4.0" layoutY="434.0" mnemonicParsing="false" onAction="#Filter" style="-fx-background-color: grey; -fx-border-color: black; -fx-border-width: 2;" text="Filter" />
          </children>
       </Pane>
    </children>
