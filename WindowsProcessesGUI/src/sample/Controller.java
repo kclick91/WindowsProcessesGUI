@@ -47,6 +47,36 @@ public class Controller {
             e.printStackTrace();
         }
     }
+
+    public void WriteToFileOneList() {
+        String batch = "processesList.bat";
+        String command = "cmd /c start \"\" ";
+        try {
+            //The executables will be written to a text file
+            Process p = Runtime.getRuntime().exec(command + batch);
+            Thread.sleep(1000);
+            ReadFileOne();
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+    }
+
+    public void WriteToFileTwoList()
+    {
+        String batch = "processesTwoList.bat";
+        String command = "cmd /c start \"\" ";
+        try {
+            //The executables will be written to a text file
+            Process p = Runtime.getRuntime().exec(command + batch);
+            Thread.sleep(1000);
+            ReadFileTwo();
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
     public void ReadFileOne() throws IOException {
         processesOne = new ArrayList<>();
         BufferedReader reader = new BufferedReader(new FileReader(new File("tasks.txt")));
@@ -112,4 +142,7 @@ public class Controller {
         ReadFileOne();
         ReadFileTwo();
     }
+
+
+
 }
