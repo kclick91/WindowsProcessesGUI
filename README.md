@@ -5,4 +5,3 @@ The latest version allows two different formats. The second is the list format f
 
 -No authentication needed for batch files to run on your PC.
 
-Quick video demonstration of previous version: https://youtu.be/AwcVSVASaYc
